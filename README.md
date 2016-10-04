@@ -1,24 +1,16 @@
 # PrimeFactors
 
-**TODO: Add description**
+A prime factors kata in Elixir
+
+## Dependencies
++ [Elixir](http://elixir-lang.org/install.html)
 
 ## Installation
++ With Elixir installed, clone this repository.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+## To run tests
+```
+mix test
+```
 
-  1. Add `prime_factors` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:prime_factors, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `prime_factors` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:prime_factors]]
-    end
-    ```
 
